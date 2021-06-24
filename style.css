@@ -44,15 +44,15 @@ nav{
 }
 
 .drawer{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: black;
     float: left;
     cursor: pointer;
     display: none;
     margin-left: 1rem;
-    border: solid 1.5px white;
+    border: solid 2px black;
     padding: .2rem;
-    border-radius: .1rem;
+    border-radius: 5px;
 }
 
 #cxbox{
@@ -737,6 +737,7 @@ footer p{
     text-align: center;
 }
 
+
 @media (max-width: 1030px){
     .contenedor-general{
         width: 100%;
@@ -793,4 +794,15 @@ footer p{
         left: 0;
         transition: all .3s;
     }
+
+    .arcos{
+        height: 400vh;
+    }
+}
+
+@media(max-width:910px){
+    .arcos{
+        height: 450vh;
+    }
+
 }
