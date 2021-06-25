@@ -856,6 +856,11 @@ footer p{
         align-items: center;
     }
 
+    .img-kill img{
+        height: 60%;
+        width: 150%;
+    }
+
     .img-gon,.img-kill,.img-kura,.img-leo,.img-hiso,.img-chrollo,.img-meruem {
         height: 100%;
         display: flex;
